@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO CARD - Material Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="preloader" id="loadefekt"></div>
+
+    <nav class="container" id="navcik" style="display: none;">
+        <ul class="navim sag">
+            <li style="float: left;">
+                <a href="" class="linkim">
+                    <span class="gri baslik">Tuğba </span>
+                    <span class="yesil baslik">KURT</span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="" class="linkler">
+                    Contact
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="" class="linkler">
+                    Blog
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="" class="linkler">
+                    Portfolio
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="" class="linkler">
+                    Services
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="" class="linkler">
+                    Resume
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="" class="linkler active">
+                    Home
+                    <span class="cizgiactive"></span>
+                </a>
+            </li>
+            <li class="icon">
+                <a href="javascript:void(0);" style="text-decoration: none;" onclick="myFunction()">
+                    <i class="fas fa-bars" style="color: white;"></i>
+
+                </a>
+
+            </li>
+        </ul>
+
+        <div style="clear: both;"></div>
+    </nav>
+    
+    <div class="container" style="margin-top: 5px; display: block;">
+        <ul class="responsiveBar" id="rBar">
+            <li>
+                <a href="">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Resume
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Services
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Portfolio
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container icerigim" id="icerik" style="display: none;">
+        <div class="row satir1">
+            <div class="col-lg-4 ml-4">
+                <img src="tugba.jpg" class="resmim" alt="tugba.jpg" onmouseover="this.src='tugba.jpg'"
+                onmouseout="this.src='tugba.jpg'">
+            </div>
+            <div class="col-lg ml-0 mt-5">
+                <h1><b>Tuğba KURT<b></h1>
+                <p id="unvan" style="opacity: .7;">Full Stack Developer</p>
+                <a href="https://www.instagram.com/tugbakurt/" class="iconlar" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tugba-kurt" class="iconlar" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/tugbakurt" class="iconlar" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="row satir2">
+            <div class="col-lg-6 mt-5">
+                <h3><b>About</b> <span class="yesil">Me</span></h3>
+                <p style="opacity: .7;">Hello! I’m Tuğba KURT. I am a software developer. Lorem dipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
+                <button type="button" class="butonum"><a onclick="window.print();return false"><b>DOWNLOAD RESUME</b></a></button>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <ul class="info-list">
+                    <li>
+                        <span class="title">Age</span>
+                        <span class="value">30</span>
+                    </li>
+                    <li>
+                        <span class="title">Residence</span>
+                        <span class="value">Turkey</span>
+                    </li>
+                    <li>
+                        <span class="title">Address</span>
+                        <span class="value">Konya, Turkey</span>
+                    </li>
+                    <li>
+                        <span class="title">e-mail</span>
+                        <a href="mailto:tugba.basdogan@gmail.com" class="mail">tugba.basdogan@gmail.com</a>
+                    </li>
+                    <li>
+                        <span class="title">Phone</span>
+                        <span class="value">+90 3325487795</span>
+                    </li>
+                    <li>
+                        <span class="title">Freelance</span>
+                        <span class="value">Available</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footeryazi">
+            © 2021 All rights reserved. Template design by Tuğba KURT
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
